@@ -1,0 +1,37 @@
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 250px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+}
+
+p {
+  font-size: large;
+  text-align: justify;
+  margin: 5px;
+  padding: 5px;
+  line-height: normal;
+}
