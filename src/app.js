@@ -62,22 +62,9 @@ app.get("/weather", (req, res) => {
   });
 });
 
-// 404 for child URL
-app.get("/about/*", (req, res) => {
-  res.render("404", {
-    title: "Article Not Found",
-    msg: "Article not found!",
-    name: "Ragib Hasan",
-  });
-});
-
 // 404 * url
 app.get("*", (req, res) => {
-  res.render("404", {
-    title: "404 Page Not Found",
-    msg: "you picked the wrong link fool",
-    name: "Ragib Hasan",
-  });
+  res.render("404");
 });
 
 // Server port

@@ -36,6 +36,10 @@ Then, passing Geo Coordinates into "WeatherStack API" and then finally it return
 
 <img src="public/img/err2.png" alt="invalid location error" width="" height="">
 
+### 404 Page not found!
+
+<img src="public/img/404.png" alt="404 Page not found" width="" height="">
+
 ## Requirments
 
 ```
