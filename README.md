@@ -1,6 +1,6 @@
 # Weather App
 
-This a Single Page App.<br/>
+This is a Single Page App.<br/>
 Just input location into search bar and hit enter for weather information of that area.<br/>
 
 It was made using Node.js and Express.js<br/>
@@ -11,8 +11,8 @@ The idea was very simple.<br/>
 I have used two API to get weather data.<br/>
 
 Input location from user and pass it to "Mapbox API".<br/>
-Mapbox API return location data included latitude and longitude.<br/>
-Then passing those Geo Coordinate into "WeatherStack API" and then finally it returns weather data.
+Mapbox API return location data includes latitude and longitude.<br/>
+Then, passing Geo Coordinates into "WeatherStack API" and then finally it returns weather data.
 
 ## Screenshots
 
