@@ -1,7 +1,7 @@
 const request = require("postman-request");
-const apiKey = require("./geoKey");
+const apiKey = require("./geoKey"); //You can add your API key here
 
-// Mapbox API to fectch geo coordinate by giving location
+// Mapbox API to fetch geo coordinate by giving location
 const geocode = (address, callback) => {
   const url =
     "https://api.mapbox.com/geocoding/v5/mapbox.places/" +

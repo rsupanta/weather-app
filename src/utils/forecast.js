@@ -1,5 +1,5 @@
 const request = require("postman-request");
-const apiKey = require("./forecastKey");
+const apiKey = require("./forecastKey"); //You can add your API key here
 
 // WeatherStack API to fetch weather data by giving geo coordinate
 const forecast = (latitude, longitude, callback) => {
