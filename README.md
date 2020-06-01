@@ -16,19 +16,19 @@ Then passing those Geo Coordinate into "WeatherStack API" and then finally it re
 
 ## Screenshots
 
-<p>App UI</p>
+<p><strong>App UI</strong></p>
 <img src="public/img/app-UI.png" alt="Location searching" width="400" height="">
 
-<p>Search locaiton...</p>
+<p><strong>Search locaiton...</strong></p>
 <img src="public/img/forecast1.png" alt="Location searching" width="" height="">
 
-<p>Specific location for deeper search...</p>
+<p><strong>Specific location for deeper search...</strong></p>
 <img src="public/img/forecast2.png" alt="specific search" width="" height="">
 
-<p>Blank input error handling...</p>
+<p><strong>Blank input error handling...</strong></p>
 <img src="public/img/err1.png" alt="no input error" width="" height="">
 
-<p>Wrong location name error handling...</p>
+<p><strong>Wrong location name error handling...</strong></p>
 <img src="public/img/err2.png" alt="invalid location error" width="" height="">
 
 ## Requirments
