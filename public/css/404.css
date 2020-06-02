@@ -2,6 +2,7 @@
 body {
   overflow: hidden;
   font-family: "Open Sans", sans-serif;
+  margin-top: 0px;
 }
 
 .not-found {
