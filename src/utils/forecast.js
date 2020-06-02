@@ -3,14 +3,7 @@ const apiKey = require("./forecastKey"); //You can add your API key here
 
 // WeatherStack API to fetch weather data by giving geo coordinate
 const forecast = (latitude, longitude, callback) => {
-  const url =
-    "http://api.weatherstack.com/current?access_key=" +
-    apiKey +
-    "=" +
-    latitude +
-    "," +
-    longitude +
-    "&units=m";
+  const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${latitude},${longitude}&units=m`;
 
   // Using destruction function
   request({ url, json: true }, (error, { body }) => {

@@ -24,7 +24,7 @@ Then, passing Geo Coordinates into "WeatherStack API" and then finally it return
 
 <img src="public/img/forecast1.png" alt="Location searching" width="" height="">
 
-### Specific location for deeper search
+### Didn't find your location? Try to add more string to the search
 
 <img src="public/img/forecast2.png" alt="specific search" width="" height="">
 

@@ -7,6 +7,10 @@ weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const location = searchElement.value;
+
+  msgOne.classList.remove("alert-danger");
+  msgTwo.classList.remove("alert-dark");
+  msgOne.classList.add("alert-secondary");
   msgOne.textContent = "Searching.....";
   msgTwo.textContent = "";
 
@@ -15,12 +19,17 @@ weatherForm.addEventListener("submit", (e) => {
   fetch(weatherAPIURL).then((response) => {
     response.json().then((data) => {
       if (data.error) {
-        msgOne.classList.add("alert");
+        msgOne.classList.remove("alert-dark");
         msgOne.classList.add("alert-danger");
+
         msgOne.textContent = data.error;
       } else {
-        msgOne.classList.remove("alert");
         msgOne.classList.remove("alert-danger");
+        msgOne.classList.remove("alert-secondary");
+
+        msgOne.classList.add("alert-dark");
+        msgTwo.classList.add("alert-dark");
+
         msgOne.textContent = `Location: ${data.locationName}`;
         msgTwo.textContent = `Weather: ${data.forecast}`;
       }

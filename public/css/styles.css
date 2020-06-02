@@ -27,10 +27,14 @@ button {
   margin: 5px;
 }
 
-p {
+.msgOne {
+  font-size: large;
+  text-align: start;
+  margin: 8px;
+}
+
+.msgTwo {
   font-size: large;
   text-align: justify;
-  margin: 5px;
-  padding: 5px;
-  line-height: normal;
+  margin: 8px;
 }
