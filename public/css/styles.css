@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
 header {
   margin-bottom: 60px;
 }
@@ -11,10 +16,6 @@ header a {
   color: #888888;
   margin-right: 16px;
   text-decoration: none;
-}
-
-.portrait {
-  width: 250px;
 }
 
 input {
@@ -37,4 +38,27 @@ button {
   font-size: large;
   text-align: justify;
   margin: 8px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px;
+}
+
+.push {
+  height: 80px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+}
+
+.footer-text {
+  padding-top: 15px;
 }

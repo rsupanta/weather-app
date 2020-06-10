@@ -42,13 +42,13 @@ app.get("/weather", (req, res) => {
 
   // calling geocode from mapbox API
   // Destructing function : object locationData
-  geocode(address, (error, { lattitude, longitude, locationName } = {}) => {
+  geocode(address, (error, { latitude, longitude, locationName } = {}) => {
     if (error) {
       return res.send({ error });
     }
 
     // calling forecast from weatherstack API
-    forecast(lattitude, longitude, (error, forecast) => {
+    forecast(latitude, longitude, (error, forecast) => {
       if (error) {
         return res.send({ error });
       }
