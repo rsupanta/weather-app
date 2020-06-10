@@ -40,6 +40,10 @@ Then, passing Geo Coordinates into "WeatherStack API" and then finally it return
 
 <img src="public/img/404.png" alt="404 Page not found" width="" height="">
 
+```
+Copyright (c) 2020 by Andrew Lawendy (https://codepen.io/andrew-lawendy/pen/deOpMZ)
+```
+
 ## Requirments
 
 ```

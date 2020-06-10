@@ -1,3 +1,4 @@
 src/utils/forecastKey.js
 src/utils/geoKey.js
 node_modules/
+.gitignore
