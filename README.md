@@ -3,6 +3,8 @@
 This is a Single Page App.<br/>
 Just input location into search bar and hit enter for weather information of that area.<br/>
 
+<a target='_blank' style='font-weight: bold' href="https://rsupanta-weather.herokuapp.com/">Click here</a> to visit the App.<br/>
+
 It was made using Node.js and Express.js<br/>
 For frontend, I've used vanilla JS to fetch JSON data from backend.<br/>
 The UI was designed with CSS and BootStrap.<br/>
@@ -20,7 +22,7 @@ Then, passing Geo Coordinates into "WeatherStack API" and then finally it return
 
 <img src="public/img/app-UI.png" alt="Location searching" width="400" height="">
 
-### Search locaiton
+### Search location
 
 <img src="public/img/forecast1.png" alt="Location searching" width="" height="">
 
@@ -44,7 +46,7 @@ Then, passing Geo Coordinates into "WeatherStack API" and then finally it return
 Copyright (c) 2020 by Andrew Lawendy (https://codepen.io/andrew-lawendy/pen/deOpMZ)
 ```
 
-## Requirments
+## Requirements
 
 ```
 Node.js 12+
@@ -67,7 +69,7 @@ Or you can download as zip file using github.
 
 ### Setting up Project Environment
 
-Navigate into project directiory.<br/>
+Navigate into project directory.<br/>
 Run command to install all dependencies:
 
 ```
